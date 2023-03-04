@@ -4,7 +4,7 @@ export default function ProjectGallery() {
     return (
         <>
         <h1>Projects</h1>
-        <div>
+        <div className="row">
             <ProjectCard/>
             <ProjectCard/>
             <ProjectCard/>
