@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Project1",
+        "descriptionShort": "Some short description",
+        "technologies": ["test1", "test2", "test3"],
+        "github": "https://github.com/pandi1813",
+        "liveLink": "https://pandi1813.github.io/react-portfolio/"
+    }
+]

@@ -1,6 +1,5 @@
 import ProjectCard from "../ProjectCard"
-// import Project from "./Project"
-// import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+
 
 
 
@@ -10,7 +9,7 @@ export default function ProjectGallery() {
         <>
         <h1>Projects</h1>
         <div className="row">
-            <ProjectCard/>
+            <ProjectCard projectName="test" description="some description" tech1="react" tech2="react router" tech3="bootstrap" github="github repo" live="live page"/>
             <ProjectCard/>
             <ProjectCard/>
             <ProjectCard/>

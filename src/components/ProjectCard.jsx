@@ -11,17 +11,11 @@ import {
     MDBListGroupItem
 } from 'mdb-react-ui-kit';
 import { NavLink } from 'react-router-dom';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import Project from './pages/Project';
 
-export default function ProjectCard() {
+export default function ProjectCard(props) {
     return (
         <>
-        {/* <Router>
-            <Routes>
-            <Route path="project" element={<Project />} />
-            </Routes>
-        </Router> */}
+     
         <MDBCard className="col-md-5 col-lg-3 col-sm-10">
             <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                 <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/111.webp' fluid alt='...' />
@@ -30,20 +24,20 @@ export default function ProjectCard() {
                 </NavLink>
             </MDBRipple>
             <MDBCardBody>
-                <MDBCardTitle>Card title</MDBCardTitle>
+                <MDBCardTitle>{props.projectName}</MDBCardTitle>
                 <MDBCardText>
-                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                    {props.description}
                 </MDBCardText>
                 {/* <MDBBtn href='#'>Button</MDBBtn> */}
             </MDBCardBody>
             <MDBListGroup flush>
-                <MDBListGroupItem>Cras justo odio</MDBListGroupItem>
-                <MDBListGroupItem>Dapibus ac facilisis in</MDBListGroupItem>
-                <MDBListGroupItem>Vestibulum at eros</MDBListGroupItem>
+                <MDBListGroupItem>{props.tech1}</MDBListGroupItem>
+                <MDBListGroupItem>{props.tech2}</MDBListGroupItem>
+                <MDBListGroupItem>{props.tech3}</MDBListGroupItem>
             </MDBListGroup>
             <MDBCardBody>
-                <MDBCardLink href='#'>Card link</MDBCardLink>
-                <MDBCardLink href='#'>Card link</MDBCardLink>
+                <MDBCardLink href='#'>{props.github}</MDBCardLink>
+                <MDBCardLink href='#'>{props.live}</MDBCardLink>
             </MDBCardBody>
         </MDBCard>
 
