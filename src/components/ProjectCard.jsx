@@ -5,21 +5,29 @@ import {
     MDBCardTitle,
     MDBCardText,
     MDBCardImage,
-    MDBBtn,
     MDBRipple,
     MDBCardLink,
     MDBListGroup,
     MDBListGroupItem
 } from 'mdb-react-ui-kit';
+import { NavLink } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import Project from './pages/Project';
 
 export default function ProjectCard() {
     return (
+        <>
+        {/* <Router>
+            <Routes>
+            <Route path="project" element={<Project />} />
+            </Routes>
+        </Router> */}
         <MDBCard className="col-md-5 col-lg-3 col-sm-10">
             <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                 <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/111.webp' fluid alt='...' />
-                <a>
+                <NavLink to="/project">
                     <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
-                </a>
+                </NavLink>
             </MDBRipple>
             <MDBCardBody>
                 <MDBCardTitle>Card title</MDBCardTitle>
@@ -38,5 +46,7 @@ export default function ProjectCard() {
                 <MDBCardLink href='#'>Card link</MDBCardLink>
             </MDBCardBody>
         </MDBCard>
+
+        </>
     );
 }

@@ -1,4 +1,9 @@
 import ProjectCard from "../ProjectCard"
+// import Project from "./Project"
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+
+
+
 
 export default function ProjectGallery() {
     return (
@@ -13,6 +18,12 @@ export default function ProjectGallery() {
             <ProjectCard/>
 
         </div>
+
+        {/* <Router>
+            <Routes>
+            <Route path="project" element={<Project />} />
+            </Routes>
+        </Router> */}
         </>
     )
 }
