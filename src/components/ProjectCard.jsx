@@ -26,7 +26,7 @@ export default function ProjectCard(props) {
             <MDBCardBody>
                 <MDBCardTitle>{props.projectName}</MDBCardTitle>
                 <MDBCardText>
-                    {props.description}
+                    {props.descriptionShort}
                 </MDBCardText>
                 {/* <MDBBtn href='#'>Button</MDBBtn> */}
             </MDBCardBody>
@@ -37,7 +37,7 @@ export default function ProjectCard(props) {
             </MDBListGroup>
             <MDBCardBody>
                 <MDBCardLink href='#'>{props.github}</MDBCardLink>
-                <MDBCardLink href='#'>{props.live}</MDBCardLink>
+                <MDBCardLink href='#'>{props.liveLink}</MDBCardLink>
             </MDBCardBody>
         </MDBCard>
 

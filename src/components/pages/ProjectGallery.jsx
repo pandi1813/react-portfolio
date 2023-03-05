@@ -12,14 +12,13 @@ export default function ProjectGallery() {
         <>
         <h1>Projects</h1>
         <div className="row">
-
-            <ProjectCard projectName="test" description="some description" tech1="react" tech2="react router" tech3="bootstrap" github="github repo" live="live page"/>
-            <ProjectCard/>
-            <ProjectCard/>
-            <ProjectCard/>
-            <ProjectCard/>
-            <ProjectCard/>
-
+        
+            {/* <ProjectCard projectName={projectDetails[0].projectName} descriptionShort={projectDetails[0].descriptionShort} tech1={projectDetails[0].tech1} tech2={projectDetails[0].tech2} tech3={projectDetails[0].tech3} github={projectDetails[0].github} liveLink={projectDetails[0].liveLink}/> */}
+             <ProjectCard {...projectDetails[0]}/>
+             <ProjectCard {...projectDetails[1]}/>
+             <ProjectCard {...projectDetails[2]}/>
+             <ProjectCard/>
+             <ProjectCard/>
         </div>
 
         {/* <Router>
