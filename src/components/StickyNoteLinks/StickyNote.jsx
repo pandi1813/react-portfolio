@@ -19,7 +19,7 @@ export default function StickyNote(props) {
                         </defs>
                     </svg>
                     <div className="sticky-content">
-                        <NavLink to='projects'>{props.text}</NavLink>
+                        <NavLink to={props.link}>{props.text}</NavLink>
                     </div>
                 </div>
             </div>

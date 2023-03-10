@@ -1,7 +1,6 @@
 
 import './App.css';
 import Home from './components/pages/Home';
-import NavbarComponent from './components/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import ProjectGallery from './components/pages/ProjectGallery';
