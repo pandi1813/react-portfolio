@@ -1,22 +1,15 @@
-import ProjectCard from "../ProjectCard"
-
-
-
+import Project from "../Project";
 
 
 export default function ProjectGallery() {
     let projectDetails = require('../ProjectDescription.json')
-    console.log(projectDetails.map(projectDetail => projectDetail.name))
-    
-    return (
+
+    return (     
         <>
         <h1>Projects</h1>
         <div className="row">
-            {projectDetails.map(projectDetail => <ProjectCard {...projectDetail}/>)}
-           
+        {projectDetails.map(projectDetail => <Project {...projectDetail}/>)}
         </div>
-
-    
         </>
     )
 }

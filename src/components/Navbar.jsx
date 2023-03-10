@@ -1,54 +1,18 @@
-import React, { useState } from 'react';
-import {
-    MDBContainer,
-    MDBCollapse,
-    MDBNavbar,
-    MDBNavbarToggler,
-    MDBIcon,
-    MDBBtn,
-} from 'mdb-react-ui-kit';
-import { NavLink } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
-export default function App() {
-    const [showNavExternal3, setShowNavExternal3] = useState(false);
-
-    return (
-        <>
-            <MDBNavbar>
-                <MDBContainer fluid>
-                    <MDBNavbarToggler
-                        className='ms-auto'
-                        type='button'
-                        data-target='#navbarToggleExternalContent'
-                        aria-controls='navbarToggleExternalContent'
-                        aria-expanded='false'
-                        aria-label='Toggle navigation'
-                        onClick={() => setShowNavExternal3(!showNavExternal3)}
-                    >
-                        <MDBIcon icon='bars' fas />
-                    </MDBNavbarToggler>
-                </MDBContainer>
-            </MDBNavbar>
-
-            <MDBCollapse show={showNavExternal3}>
-                <div className='bg-light shadow-3 p-4'>
-                    <NavLink to="/">
-                        <MDBBtn block className='border-bottom m-0' color='link'>
-                            Home
-                        </MDBBtn>
-                    </NavLink>
-                    <NavLink to="projects">
-                        <MDBBtn block className='border-bottom m-0' color='link'>
-                            Projects
-                        </MDBBtn>
-                    </NavLink>
-                    <NavLink to="contact">
-                        <MDBBtn block className='border-bottom m-0' color='link'>
-                            Contact
-                        </MDBBtn>
-                    </NavLink>
-                </div>
-            </MDBCollapse>
-        </>
-    );
-}
+export default function NavbarComponent() {
+  return (
+    <>
+    <Navbar bg="dark" variant="dark">
+        <Container>
+        <Nav className="me-auto">
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/projects">Projects</Nav.Link>
+            <Nav.Link href="contact">Contact</Nav.Link>
+        </Nav>
+        </Container>
+    </Navbar>
+</>
+)}
