@@ -11,9 +11,6 @@ export default function BrandStatement() {
                 <NavLink to='about' > here </NavLink>
                 if you'd like to read more
             </div>
-
-
-
         </div>
 
     )

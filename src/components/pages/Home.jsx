@@ -6,6 +6,7 @@ export default function Home() {
     return <>
        <Welcome/>
        <BrandStatement/>
-       <StickyNote/>
+       <StickyNote text='Check out my projects'/>
+       <StickyNote text='Get in touch'/>
     </>
 }
