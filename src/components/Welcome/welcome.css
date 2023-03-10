@@ -1,4 +1,18 @@
+
+.welcome {
+  font-family: 'Caveat', cursive;
+  margin: 15vh 0 0 15vw;
+}
+
 .welcome h2 {
+  padding-left: 5vw;
+  font-size: 3rem;
+}
+.accent {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+/* .welcome h2 {
     padding-left: 10vw;
     padding-right: 5vw;
   }
@@ -28,7 +42,7 @@
     bottom: 0;
   }
   
-  /* Shadow behind the sticky note */
+ 
   .sticky:before {
     box-shadow: -2px 2px 15px 0 rgba(0, 0, 0, 0.5);
     background-color: rgba(0, 0, 0, 0.25);
@@ -40,7 +54,7 @@
     top: 30%;
   }
   
-  /* The sticky note itself */
+ 
   .sticky-content {
     background: linear-gradient(180deg,
         rgba(187, 235, 255, 1) 0%,
@@ -56,4 +70,4 @@
     font-family: 'Caveat', cursive;
     text-align: center;
     clip-path: url(#stickyClip);
-  }
+  } */

@@ -3,7 +3,20 @@ import './welcome.css'
 export default function Welcome() {
     return (
         <>
-            <div class="sticky-container">
+            <div className='welcome'>
+
+
+                <h1>Welcome to my portfolio</h1>
+                <h2> I'm <span className='accent'>Andrea Peter</span></h2>
+            </div>
+
+
+
+
+
+
+
+            {/* <div class="sticky-container">
                 <div class="sticky-outer">
                     <div class="sticky">
                         <svg width="0" height="0">
@@ -23,7 +36,7 @@ export default function Welcome() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }
