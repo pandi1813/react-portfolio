@@ -6,10 +6,21 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-color: aqua;
+  background-color: rgb(242, 247, 192);
+
+  color: rgb(89, 78, 78);
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.font-accent {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+

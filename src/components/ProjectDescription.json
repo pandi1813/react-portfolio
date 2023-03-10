@@ -1,6 +1,6 @@
 [
     {
-        "projectName": "Project1",
+        "projectName": "Random password generator",
         "descriptionShort": "Some short description",
         "image": "./images/02-portfolio-1.jpg",
         "tech1": "test1",
@@ -10,7 +10,7 @@
         "liveLink": "https://pandi1813.github.io/react-portfolio/"
     },
     {
-        "projectName": "Project2",
+        "projectName": "Dinosaur quiz game",
         "descriptionShort": "Some short description",
         "image": "./images/02-portfolio-1.jpg",
         "tech1": "test1",
@@ -20,7 +20,7 @@
         "liveLink": "https://pandi1813.github.io/react-portfolio/"
     },
     {
-        "projectName": "Project3",
+        "projectName": "Weather Dashboard",
         "descriptionShort": "Some short description",
         "image": "./images/02-portfolio-1.jpg",
         "tech1": "test1",
@@ -30,7 +30,7 @@
         "liveLink": "https://pandi1813.github.io/react-portfolio/"
     },
     {
-        "projectName": "Project4",
+        "projectName": "Team Profile Generator",
         "descriptionShort": "Some short description",
         "image": "./images/02-portfolio-1.jpg",
         "tech1": "test1",
@@ -40,7 +40,7 @@
         "liveLink": "https://pandi1813.github.io/react-portfolio/"
     },
     {
-        "projectName": "Project5",
+        "projectName": "Top Trumps inspired game",
         "descriptionShort": "Some short description",
         "image": "./images/02-portfolio-1.jpg",
         "tech1": "test1",
@@ -50,8 +50,8 @@
         "liveLink": "https://pandi1813.github.io/react-portfolio/"
     },
     {
-        "projectName": "Project6",
-        "descriptionShort": "Some short description",
+        "projectName": "Coming soon...",
+        "descriptionShort": "Our second group project",
         "image": "./images/02-portfolio-1.jpg",
         "tech1": "test1",
         "tech2": "test2",

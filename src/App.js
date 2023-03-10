@@ -12,7 +12,7 @@ export default function App() {
 return <>
  <Router>
       <div>
-         <NavbarComponent />
+         {/* <NavbarComponent /> */}
         <Routes>
          
           <Route path='/' element={<Home />} />          
