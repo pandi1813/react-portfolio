@@ -16,9 +16,10 @@
   .sticky-container {
     max-width: 250px;
     position: relative;
-    margin: 0 0 0 15vw;
+    margin: 0 0 5vh 10vw;
     pad: 0;
-  
+    top: 30vh;
+    transform: rotate(-20deg);
   }
   
   .sticky-outer {
